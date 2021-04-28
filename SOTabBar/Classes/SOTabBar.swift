@@ -40,7 +40,7 @@ public class SOTabBar: UIView {
     
     private let innerCircleView: UIView = {
         let view = UIView()
-        view.backgroundColor = colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        view.backgroundColor = UIColor.white
         return view
     }()
     
